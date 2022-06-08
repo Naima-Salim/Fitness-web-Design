@@ -1,0 +1,628 @@
+body{
+    background-color: white;
+}
+.container-1{
+    background-color: #F9F7EE;
+    padding-bottom: 4.4%;
+   
+}
+.nav{
+    display: flex;
+    font-size: 30px;
+    margin-left: 26%;
+}
+.image-logo{
+    margin-left: 5%;
+    margin-top: -3.5%;
+}
+.logo{
+    margin-left: 8%;
+    margin-top: -2.7%;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.text-one{
+    margin-left: 65%;
+    font-size: 35px;
+    margin-top: -4.6%;
+}
+/* .register{
+    margin-left: 75%;
+    margin-bottom: 6%;
+    background-color: #FF6C2A;
+} */
+header{
+    margin-left: 6%;
+    margin-top: 10%;
+    font-size: 100px;
+    font-weight: bold;
+    color: #152144;
+}
+.text-two{
+    margin-left: 6%;
+    font-size: 30px;
+    color: rgb(46, 27, 46);
+}
+.service{
+    margin-left: 6%;
+    background-color: #FF6C2A;
+    height: 80px;
+    width: 13%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+.play{
+    margin-left: 22%;
+    margin-top: -4.4%;
+}
+.text-3{
+    margin-left: 29%;
+    font-weight: 600;
+    color: #152144;
+    margin-top: -21%;
+    font-size: 25px;
+}
+.main-pic{
+    margin-left: 59%;
+    margin-top: -25%;
+}
+.google{
+    margin-left: 6%;
+    font-size: 60px;
+    color: grey;
+    font-weight: bold;
+    margin-top: 11%;
+}
+.facebook{
+    margin-left: 20%;
+    font-size: 60px;
+    color: grey;
+    font-weight: bold;
+    margin-top: -6.4%;
+}
+.spotify{
+    margin-left: 43.6%;
+    font-size: 60px;
+    color: grey;
+    font-weight: bold;
+    margin-top: -6.4%;
+
+}
+.spotify-icon{
+    margin-left: 38%;
+    margin-top: -6.4%;
+
+}
+.container-2{
+    background-color: white;
+    height: 1000px;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    color: #152144;
+    padding-top: 5%;
+}
+.text-4{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -1%;
+}
+h2{
+    margin-left: 15%;
+    font-size: 35px;
+    margin-top: 10%;
+    color: white;
+}
+.text-5{
+    margin-left: 15%;
+    font-size: 25px;
+}
+h3{
+    margin-left: 48%;
+    font-size: 35px;
+    margin-top: -10%;
+    color: white;
+    
+}
+.text-6{
+    margin-left: 48%;
+    font-size: 25px;
+}
+h4{
+    margin-left: 83%;
+    font-size: 35px;
+    margin-top: -11%;
+    color: white;
+}
+.text-7{
+    margin-left: 83%;
+    font-size: 25px;
+}
+.boxes{
+    border-radius: 50px;
+    background-image: linear-gradient(319deg, #7B00F5 0%, #8F5DEF 37%, #7B00F5 100%);
+    padding-top: 0.1%;
+    height: 450px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.boxes:hover{
+    transition: 60s;
+    transform: rotate(360deg);
+}
+.boxing{
+    margin-left: 71%;
+    margin-top: -12%;
+}
+.run{
+    margin-left: 36%;
+    margin-top: -11.4%;
+
+}
+.skip{
+    margin-top: -11.4%;
+    margin-left: 3%;
+}
+.container-3{
+    background-color: white;
+    height: 800px;
+}
+.gym{
+    margin-left: 5%;
+    margin-top: -7%;
+}
+h5{
+    margin-left: 53%;
+    margin-top: -35%;
+    font-size: 70px;
+    color: #152144;
+}
+.text-8{
+    margin-left: 53%;
+    margin-top: -4%;
+    color: #606a87;
+    font-size: 30px;
+    line-height: 2em;
+    font-weight: 600;
+
+}
+.started{
+    margin-left: 53%;
+    height: 90px;
+    width: 15%;
+    font-size: 30px;
+    border: none;
+    background-color: #152144;
+    color: white;
+    border-radius: 25px;
+}
+.container-4{
+    background-color: #f9d1b7;
+    padding-top: 5%;
+    background-image: linear-gradient(360deg, #fffad7 1%, #ffff 74%);
+
+}
+h6{
+    font-size: 65px;
+    margin-left: 8%;
+    color: #152144;
+}
+.number{
+    font-size: 66px;
+    margin-left: 8%;
+    border-radius: 100%;
+    background-image: linear-gradient(360deg, #044de9 5%, #09c6f9 74%);
+    width: 4%;
+    height: 80px;
+    margin-top: -0.3%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.number:hover{
+    width: 130px;
+    height: 130px;
+    transition: 3s;
+    transform: perspective(280deg);
+}
+.number-one{
+    margin-top: -8.4%;
+    margin-left: 15%;
+    font-size: 30px;
+    border-radius: 40px;
+    background-color: #f8ecb7;
+    width: 23%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.number2{
+    font-size: 66px;
+    margin-left: 8%;
+    border-radius: 100%;
+    background-image: linear-gradient(320deg, #ce04e9 5%, #09adf9 74%);
+    width: 4%;
+    margin-bottom: -1%;
+    height: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.number2:hover{
+    width: 130px;
+    height: 130px;
+    transition: 3s;
+    transform: perspective(280deg);
+}
+.number-two{
+   margin-left: 16%;
+   margin-top: -3.4%;
+   font-size: 30px;  
+}
+
+.number3{
+    font-size: 66px;
+    margin-left: 8%;
+    margin-top: 5%;
+    border-radius: 100%;
+    background-image: linear-gradient(120deg, #cee904 5%, #09adf9 74%);
+    width: 4%;
+    height: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.number3:hover{
+    width: 130px;
+    height: 130px;
+    transition: 3s;
+    transform: perspective(280deg);
+}
+.number-three{
+   margin-left: 16%;
+   margin-top: -6.8%;
+   font-size: 30px;
+}
+.stretch{
+    margin-left: 48%;
+    margin-top: -35%;
+}
+.text-9{
+    text-align: center;
+    font-size: 55px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.cardio{
+    margin-left: 10%;
+    border-radius: 30px;
+    border: solid 1px;
+    width: 20%;
+    padding-left: 4%;
+    background-color: white;
+}
+.cardio-strength{
+    font-weight: bold;
+    color: #00242e;
+    font-size: 35px;
+}
+.text-10{
+    margin-top: -5%;
+    font-size: 23px;
+}
+.fat{
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 30px;
+    border: solid 1px;
+    width: 20%;
+    padding-left: 4%;
+    background-color: white;
+}
+.fat-loss{
+    font-weight: bold;
+    color: #00242e;
+    font-size: 35px;
+}
+.text-12{
+    margin-top: -5%;
+    font-size: 23px;
+}
+.aeroic{
+    margin-left: 40%;
+    margin-top: -19.5%;
+    border-radius: 30px;
+    border: solid 1px;
+    width: 20%;
+    padding-left: 4%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: white;
+}
+.icon-1{
+    margin-left: 1%;
+}
+.aeroic:hover{
+    transition: transform .1s ease;
+    background-color: #09adf9;
+}
+.gymnastics{
+    font-weight: bold;
+    color: #00242e;
+    font-size: 35px;
+}
+.text-13{
+    margin-top: -5%;
+    font-size: 23px;
+}
+.building{
+    margin-left: 40%;
+    margin-top: 2%;
+    border-radius: 30px;
+    border: solid 1px;
+    width: 20%;
+    padding-left: 4%;
+    background-color: white;
+}
+.muscles{
+    font-weight: bold;
+    color: #00242e;
+    font-size: 35px;
+}
+.text-14{
+    margin-top: -5%;
+    font-size: 23px;
+}
+.exercise{
+    margin-left: 70%;
+    margin-top: -19.5%;
+    border-radius: 30px;
+    border: solid 1px;
+    width: 20%;
+    padding-left: 4%;
+    background-color: white;
+}
+.cardio2{
+    font-weight: bold;
+    color: #00242e;
+    font-size: 35px;
+}
+.text-15{
+    margin-top: -5%;
+    font-size: 23px;
+}
+.level{
+    margin-left: 70%;
+    margin-top: 2%;
+    border-radius: 30px;
+    border: solid 1px;
+    width: 20%;
+    padding-left: 4%;
+    background-color: white;
+}
+.muscle{
+    font-weight: bold;
+    color: #00242e;
+    font-size: 35px;
+}
+.text-16{
+    margin-top: -5%;
+    font-size: 23px;
+}
+.squats{
+    margin-top: 4%;
+    margin-left: 6%;
+}
+.text-17{
+    margin-left: 53%;
+    margin-top: -0.5%;
+    font-size: 70px;
+    font-weight: bold;
+    color: #00242e;
+}
+.quotes{
+    margin-left: 53%;
+    margin-top: -36%;
+
+}
+.text-18{
+    margin-left: 53%;
+    font-size: 30px;
+    color: #606a87;
+}
+.text-19{
+    margin-left: 53%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #152144;
+}
+.doctor{
+    color: grey;
+}
+.stars{
+    margin-left: 53%;
+    font-size: 40px;
+    color: rgb(239, 106, 29);
+
+}
+.forward{
+    margin-left: 85%;
+    font-size: 50px;
+    margin-top: -3%;
+}
+.text-20{
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+.text-21{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+.email{
+    margin-left: 28%;
+    height: 90px;
+    margin-top: 3%;
+    color: #606a87;
+    width: 30%;
+    border-radius: 15px;
+    border: none;
+    text-align: justify;
+    font-size: 25px;
+    padding-left: 2%;
+}
+.sub{
+    margin-left: 1%;
+    height: 90px;
+    width: 13%;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: #de6210;
+    color: white;
+    border: none;
+}
+.subscribe{
+    border-radius: 40px;
+    background-image: linear-gradient(120deg, #1D2B59 5%, #212C63 74%);
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 15%;
+    padding-bottom: 5%;
+}
+.circle{
+    margin-left: 14%;
+    margin-top: -13%;
+}
+.circle-1{
+    margin-top: -20%;
+    margin-left: 27%;
+}
+.text-22{
+    margin-top: 15%;
+}
+.circle-2{
+    margin-left: 85%;
+}
+.circle-3{
+    margin-left: 79%;
+    margin-top: -2.3%;
+}
+.circle-4{
+    margin-left: 75%;
+    margin-top: 10%;
+}
+.fit-1{
+  margin-top: 15%;
+  margin-left: 7.5%;
+  font-size: 25px;
+  font-weight: bold;
+  color: #606a87;
+}
+.fit-2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152144;
+    margin-left: 4.5%;
+    margin-top: -2.7%;
+}
+.fit-image{
+    margin-left: 1.4%;
+}
+/* .images{
+    display: flex;
+}
+.facebook{
+    margin-right: 55%;
+    margin-top: 5%;
+} */
+
+.programs{
+    margin-left: 33%;
+    font-size: 25px;
+    color: #606a87;
+    font-weight: bold;
+}
+.programs-2{
+    font-size: 30px;
+    margin-left: 3%;
+    color: #152144;
+    margin-top: -14.5%;
+}
+.support{
+    margin-left: 60%;
+    font-size: 25px;
+    color: #606a87;
+    font-weight: bold;
+}
+.support-2{
+    font-size: 30px;
+    margin-left: 3%;
+    color: #152144;
+    margin-top: -28%;
+}
+.download{
+    margin-left: 80%;
+    font-size: 30px;
+    color: #152144;
+    font-weight: bold;
+    margin-top: -8.7%;
+}
+.play-store{
+    margin-left: 80%;
+    padding-left: 3%;
+    width: 12%;
+    height: 70px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.play-store-img{
+    margin-left: 78.5%;
+    margin-top: -4.2%;
+}
+.play-2{
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.app-store{
+    margin-top: 1%;
+    padding-left: 3%;
+    margin-left: 80%;
+    width: 12%;
+    height: 70px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.app{
+    font-weight: bold;
+    font-size: 25px;
+}
+.apple{
+    margin-left: 81%;
+    color: white;
+    margin-top: -3%;
+}
+footer{
+    padding-bottom: 4%;
+}
