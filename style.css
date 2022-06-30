@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    /* overflow: hidden; */
 }
 .container-1{
     background-color: #F9F7EE;
@@ -66,7 +67,7 @@ header{
     font-size: 25px;
 }
 .main-pic{
-    margin-left: 59%;
+    margin-left: 57.4%;
     margin-top: -25%;
 }
 .google{
@@ -503,6 +504,14 @@ h6{
     margin-top: 15%;
     padding-bottom: 5%;
 }
+.subscribe:hover{
+    box-shadow:
+    15px 15px #de6210,
+    16px 16px #de6210,
+    19px 19px #de6210;
+-webkit-transform: translateX(-6px);
+transform: translateX(-6px);
+}
 .circle{
     margin-left: 14%;
     margin-top: -13%;
@@ -624,5 +633,5 @@ h6{
     margin-top: -3%;
 }
 footer{
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
